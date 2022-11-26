@@ -1,11 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from './Pages/Home/index';
 import './styles.css';
+import { BrowserRouter } from 'react-router-dom';
+import Header from './components/Header';
+import MainRoutes from './routes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+    <BrowserRouter>
+      <Header />
+        <MainRoutes />    
+    </BrowserRouter>
+    
   </React.StrictMode>
 );
