@@ -33,6 +33,7 @@ function Home() {
           {posts?.map((post) => (
             <PostCard
               key={post.id}
+              id={post.id}
               title={post.title}
               body={post.body}
             />
