@@ -1,0 +1,40 @@
+.post-list-data {
+    width: 315px;
+    height: 330px;
+
+    border: solid rgb(201, 201, 201) 1px;
+    background-color: #131313;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+
+}
+
+.post-list-data h2 {
+    color: #cecece;
+}
+
+
+
+
+.post-list-data button {
+    all: unset;
+
+    width: 100px;
+    height: 30px;
+
+    color: tomato;
+    background-color: aliceblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+
+    border-radius: 5px;
+}

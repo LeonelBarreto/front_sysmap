@@ -1,0 +1,33 @@
+header {
+    width: 100vw;
+    background-color: #131313;
+    box-shadow: 2px 2px 2px 1px rgba(29, 29, 29, 0.178);
+
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    
+    text-decoration: none;
+}
+
+.logo img {
+    height: 40px;
+}
+
+h1 {
+    font-size: 40px;
+
+    font-weight: 600;
+
+    color: #e2e2e2;
+}
