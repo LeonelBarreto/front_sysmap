@@ -48,24 +48,60 @@ function User() {
 
   return (
 
-    <main className='main-container'>
-        <div className='post-container-cards'>
-          <span>{user.id}</span>
-          <span>{user.name}</span>
-          <span>{user.username}</span>
-          <span>{user.email}</span>
-          <span>{user.address.street}</span>
-          <span>{user.address.suite}</span>
-          <span>{user.address.city}</span>
-          <span>{user.address.zipcode}</span>
-          <span>{user.address.geo.lat}</span>
-          <span>{user.address.geo.lng}</span>
-          <span>{user.phone}</span>
-          <span>{user.website}</span>
-          <span>{user.company.name}</span>
-          <span>{user.company.catchPhare}</span>
-          <span>{user.company.bs}</span>
+    <main className='container-user'>
+      <h2>DADOS DO USUÁRIO</h2>
+      <div className='container-user-data'>
+        <div className='container-user-data-board'>
+          <div className='container-user-data-board-title'>
+            <span>PERFIL DO USUÁRIO</span>
+          </div>
+          <div className='container-user-data-board-info'>
+            <span>ID:</span>
+            <p>{user.id}</p>
+            <span>Nome:</span>
+            <p>{user.name}</p>
+            <span>Username:</span>
+            <p>{user.username}</p>
+            <span>E-mail:</span>
+            <p>{user.email}</p>
+          </div>
         </div>
+        <div className='container-user-data-board'>
+          <div className='container-user-data-board-title'>
+            <span>ENDEREÇO DO USUÁRIO</span>
+          </div>
+          <div className='container-user-data-board-info'>
+            <span>Rua:</span>
+            <p>{user.address.street}</p>
+            <span>Complemento:</span>
+            <p>{user.address.suite}</p>
+            <span>Cidade:</span>
+            <p>{user.address.city}</p>
+            <span>Código Postal:</span>
+            <p>{user.address.zipcode}</p>
+            <span>Geolocalização:</span>
+            <p>{user.address.geo.lat}</p>
+            <p>{user.address.geo.lng}</p>
+            <span>Telefone:</span>
+            <p>{user.phone}</p>
+            <span>Website:</span>
+            <p>{user.website}</p>
+          </div>
+        </div>
+        <div className='container-user-data-board'>
+          <div className='container-user-data-board-title'>
+            <span>DADOS DA EMPRESA</span>
+          </div>
+          <div className='container-user-data-board-info'>
+            <span>Nome da Empresa:</span>
+            <p>{user.company.name}</p>
+            <span>Bordão:</span>
+            <p>{user.company.catchPhrase}</p>
+            <span>Brand Slogan:</span>
+            <p>{user.company.bs}</p>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
