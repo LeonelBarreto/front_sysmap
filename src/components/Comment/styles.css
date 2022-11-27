@@ -1,0 +1,26 @@
+.comment-list-data {
+    display: flex;
+    flex-direction: column;
+
+    width: 315px;
+    height: 270px;    
+    
+    background-color: #f3f3f3;
+    box-shadow: 1px 2px 1px 0px rgba(87, 87, 87, 0.178);
+
+    
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.comment-list-data span {
+    font-size: 1.0rem;
+    font-weight: 800;
+}
+
+.comment-list-data p {
+    font-size: 0.8rem;
+
+    padding-bottom: 20px;
+}

@@ -29,11 +29,14 @@ function Post() {
           }
         }
         loadAPI();
-      }, []);
+      }, [id]);
 
   return (
 
     <main className='main-container'>
+      
+      <h2>COMENTÁRIOS DA PUBLICAÇÃO</h2>
+      <div className='post-container'>
         <div className='post-container-cards'>
           
           {comments?.map((comment) => (
@@ -45,6 +48,8 @@ function Post() {
             />
           ))}
         </div>
+
+      </div>
     </main>
   );
 }

@@ -1,0 +1,39 @@
+.container-user {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.container-user-data-board {    
+    border-radius: 8px;
+    background-color: #f3f3f3;
+    box-shadow: 1px 2px 1px 0px rgba(87, 87, 87, 0.178);
+    margin-bottom: 15px;
+}
+
+
+.container-user-data-board-title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 8px 0px 0px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #1075b3;
+}
+
+.container-user-data-board-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 15px;
+}
+
+span, p {
+    font-size: 1.5rem;
+}

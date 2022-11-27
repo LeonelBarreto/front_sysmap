@@ -1,40 +1,32 @@
+.container-post {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .post-list-data {
-    width: 315px;
-    height: 330px;
-
-    border: solid rgb(201, 201, 201) 1px;
-    background-color: #131313;
-
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
-    margin-bottom: 20px;
-
+    max-width: 315px;
+    height: 300px;    
+    
+    background-color: #f3f3f3;
+    box-shadow: 1px 2px 1px 1px rgba(29, 29, 29, 0.178);
+    
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
 .post-list-data h2 {
-    color: #cecece;
+    color: #2c2c2c;
+
+    font-size: 1.2rem;
 }
 
-
-
-
-.post-list-data button {
-    all: unset;
-
-    width: 100px;
-    height: 30px;
-
-    color: tomato;
-    background-color: aliceblue;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    font-weight: 600;
-
-    border-radius: 5px;
+.post-list-data p {
+    font-size: 0.7rem;
 }

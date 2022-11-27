@@ -26,9 +26,9 @@ function Users() {
 
   return (
 
-    <main className='main-container'>
-        <div className='post-container-cards'>
-          
+    <main className='container-list-users'>
+      <h2>USUÁRIOS CADASTRADOS</h2>
+        <dir className='container-list-users-card-data'>
           {users?.map((user) => (
             <UserCard
               key={user.id}
@@ -38,7 +38,7 @@ function Users() {
               email={user.email}
             />
           ))}
-        </div>
+        </dir>       
     </main>
   );
 }

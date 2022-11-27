@@ -10,11 +10,14 @@ function UserCard({ id, name, username, email }) {
     };
 
     return(
-        <div className='post-list-data'>
-            <span>{name}</span>
-            <span>{username}</span>
-            <span>{email}</span>
-            <button className='post-list-button' onClick={redirectComments}>Detalhes do Usuário</button>
+        <div className='list-users'>
+            <span>Nome:</span>
+            <p>{name}</p>
+            <span>Username:</span>
+            <p>{username}</p>
+            <span>E-mail:</span>
+            <p>{email}</p>
+            <button className='btn' onClick={redirectComments}>Detalhes do Usuário</button>
         </div>
     )
 }

@@ -1,7 +1,19 @@
-.post-container-cards {
+.container-list-users {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-list-users-card-data {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0 20px;
+
+    margin: 0 20px;
+
 }
 
+.container-list-users h2 {
+    padding-bottom: 20px;
+}

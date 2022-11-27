@@ -10,10 +10,12 @@ function PostCard({ title, body, id }) {
     };
 
     return(
-        <div className='post-list-data'>
-            <h2>{title}</h2>
-            <p>{body}</p>
-            <button className='post-list-button' onClick={redirectComments}>Ver Comentários</button>
+        <div className='container-post'>
+            <div className='post-list-data'>
+                <h2>{title}</h2>
+                <p>{body}</p>                
+                <button className='btn' onClick={redirectComments}>Ver Comentários</button>
+            </div>
         </div>
     )
 }
