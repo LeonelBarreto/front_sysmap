@@ -4,9 +4,9 @@ function Comment({ name, email, body }) {
 
     return(
         <div className='comment-list-data'>
-            <span>Nome:</span>
+            <span>nome:</span>
             <p>{name}</p>
-            <span>E-mail:</span>
+            <span>e-mail:</span>
             <p>{email}</p>
             <span>Comentário:</span>
             <p>{body}</p>
